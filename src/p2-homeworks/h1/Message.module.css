@@ -1,0 +1,32 @@
+.message {
+    display: flex;
+    align-items: flex-end;
+    margin: 10px;
+    position: relative;
+}
+
+.message > img {
+    width: 50px;
+    height: auto;
+}
+
+.name {
+    color: mediumpurple;
+    font-weight: bold;
+}
+
+.message_wrap {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 60px 10px 10px;
+    position: relative;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.time {
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    color: #288028;
+}
